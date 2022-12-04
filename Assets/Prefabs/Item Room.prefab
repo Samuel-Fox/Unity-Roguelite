@@ -108,9 +108,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2390f1f5fa1d5ee4cac3c49303c95583, type: 2}
   - {fileID: 11400000, guid: c1c6fe28e156ebb48a7a4e5f5f0c7954, type: 2}
   - {fileID: 11400000, guid: bf07ea40b2e0b9e4499273eaa95489ec, type: 2}
-  - {fileID: 11400000, guid: cc273e46692325d40a6fe0ebe90b5831, type: 2}
-  - {fileID: 11400000, guid: 00997f1758e59894fa53c7d5a77456d8, type: 2}
-  - {fileID: 11400000, guid: d345d66c2d2783c49ad4aa5ec61d500c, type: 2}
   marker: {fileID: 75847657399174675}
 --- !u!58 &8753237636182083485
 CircleCollider2D:

@@ -44,6 +44,9 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             ResetStatic.ResetData();
+            currentLevel = 1;
+            pItems.Clear();
+            RefreshStats();
             transform.position = new Vector3(0, 0, 0);
             PlayerMovement.instance.playerPos.x = 0;
             PlayerMovement.instance.playerPos.y = 0;
@@ -83,7 +86,7 @@ public class PlayerController : MonoBehaviour
     {
         if(Time.time > PlayerHealth.instance.immunityOver && other.gameObject.CompareTag("Enemy")) 
         {
-            PlayerHealth.instance.TakeDamage(1f);
+            PlayerHealth.instance.TakeDamage(.5f);
         }
     }
 
